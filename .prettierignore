@@ -1,0 +1,14 @@
+*.graphql
+*.d.ts
+*.env*
+.nexus/
+.vscode/
+build
+coverage
+dist
+env.*
+node_modules
+npm-debug.log*
+yarn.lock
+migrations
+prisma

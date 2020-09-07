@@ -1,0 +1,50 @@
+{
+  "name": "nexus",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@types/jest": "^26.0.10",
+    "jest": "^26.4.2",
+    "nanoid": "^3.1.12",
+    "next-connect": "^0.8.1",
+    "nexus": "^0.26.1",
+    "nexus-plugin-prisma": "^0.18.0",
+    "pg": "^8.3.3",
+    "ts-jest": "^26.3.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "deploy": "vc",
+    "deploy:preview": "yarn deploy",
+    "deploy:production": "deploy --prod",
+    "dev": "ts-node api/graphql.ts",
+    "build": "cp -R prisma/ build/ && prisma generate --schema=./prisma/schema.prisma && nexus build",
+    "nexus:reflection": "nexus dev --reflection --entrypoint api/graphql.ts",
+    "nexus:check": "nexus build --entrypoint api/graphql.ts",
+    "lint": "prettier --check '*/**/*.{js,ts,tsx,jsx}' && eslint --quiet --cache '*/**/*.{js,ts,tsx}'",
+    "lint:fix": "prettier --write '*/**/*.{js,ts,tsx,jsx}' && eslint --quiet --cache --fix '*/**/*.{js,ts,tsx}'"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "globals": {
+      "ts-jest": {
+        "diagnostics": {
+          "warnOnly": true
+        }
+      }
+    },
+    "testEnvironment": "./tests/nexus-test-environment.js"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.24.0",
+    "@typescript-eslint/parser": "^2.21.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "prettier": "^2.1.1",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.2",
+    "vercel": "^20.1.0"
+  }
+}

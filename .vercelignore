@@ -1,0 +1,11 @@
+.vercel
+.nexus
+.vscode
+.git
+.prettierignore
+.prettierrc
+.eslintrc
+.eslintignore
+.envrc
+.env
+.history
