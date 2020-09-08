@@ -37,14 +37,14 @@
     "testEnvironment": "./tests/nexus-test-environment.js"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.24.0",
-    "@typescript-eslint/parser": "^2.21.0",
-    "eslint": "^6.8.0",
-    "eslint-config-prettier": "^6.10.0",
-    "eslint-plugin-prettier": "^3.1.1",
-    "prettier": "^2.1.1",
-    "ts-node": "^9.0.0",
-    "typescript": "^4.0.2",
-    "vercel": "^20.1.0"
+    "@typescript-eslint/eslint-plugin": "2.34.0",
+    "@typescript-eslint/parser": "2.34.0",
+    "eslint": "6.8.0",
+    "eslint-config-prettier": "6.11.0",
+    "eslint-plugin-prettier": "3.1.4",
+    "prettier": "2.1.1",
+    "ts-node": "9.0.0",
+    "typescript": "4.0.2",
+    "vercel": "20.1.0"
   }
 }
