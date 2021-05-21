@@ -3275,10 +3275,10 @@ next-connect@^0.10.0:
   dependencies:
     trouter "^3.1.0"
 
-nexus-plugin-prisma@^0.34.0:
-  version "0.34.0"
-  resolved "https://registry.yarnpkg.com/nexus-plugin-prisma/-/nexus-plugin-prisma-0.34.0.tgz#1f79837b50f86d948775a56269abf1d18744fe65"
-  integrity sha512-um1NVmPd82jnyKiJ2qDmrwLX+xRX/RqfkcVVrxTEGW6u7t3xqz1IWLzuziAg6aoY3mwGcBNOV0kMCSFKh4rogA==
+nexus-plugin-prisma@^0.35.0:
+  version "0.35.0"
+  resolved "https://registry.yarnpkg.com/nexus-plugin-prisma/-/nexus-plugin-prisma-0.35.0.tgz#ab725c88823ab38c18fed90cca72f05ee73f3425"
+  integrity sha512-zZh96Ol6eqDGGd2caZLayjDW5ruUxNdoglyAMa/bOTBfnxu1Keb9kOyD+n7zVV+Mot8t0GRvWS4XilXoKZF/Tg==
   dependencies:
     camelcase "^6.2.0"
     endent "^2.0.1"
