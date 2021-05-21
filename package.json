@@ -9,7 +9,7 @@
     "nanoid": "^3.1.12",
     "next-connect": "^0.10.0",
     "nexus": "^1.0.0",
-    "nexus-plugin-prisma": "^0.34.0",
+    "nexus-plugin-prisma": "^0.35.0",
     "pg": "^8.6.0",
     "ts-jest": "^26.3.0"
   },
