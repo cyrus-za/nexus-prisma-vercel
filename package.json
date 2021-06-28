@@ -11,7 +11,7 @@
     "nexus": "^1.0.0",
     "nexus-plugin-prisma": "^0.35.0",
     "pg": "^8.6.0",
-    "ts-jest": "^26.3.0"
+    "ts-jest": "^27.0.0"
   },
   "scripts": {
     "test": "jest",
