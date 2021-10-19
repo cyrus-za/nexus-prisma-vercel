@@ -3314,10 +3314,10 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-next-connect@^0.10.0:
-  version "0.10.0"
-  resolved "https://registry.yarnpkg.com/next-connect/-/next-connect-0.10.0.tgz#61829818bea1989a003bf093f321c09b95c72cad"
-  integrity sha512-W8oiw8ylXdMQJQG/FtBaSbXQkf9YgqEPh5sjfFOx6BlZVVLd8UP7Cp7qZe32lVAuQEGnU/JlmWkyzBOdt6xVrw==
+next-connect@^0.11.0:
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/next-connect/-/next-connect-0.11.0.tgz#447c7b78937ff71f36c97d03f1623a6d0264ef49"
+  integrity sha512-7VW5z9MWOpd8wnbST9dXgVd0c0V76LLLk5mBDYLSMtEC2dj3v3YF/Bl3t58cJrzm4SZ0e/s3yeD361F888u0yg==
   dependencies:
     trouter "^3.1.0"
 
